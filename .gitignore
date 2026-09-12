@@ -1,0 +1,65 @@
+# =====================================================
+# VaaniRakshak - Root .gitignore
+# =====================================================
+
+# -------------------------
+# Frontend (Next.js)
+# -------------------------
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env.local
+
+# -------------------------
+# Python Backend
+# -------------------------
+backend/__pycache__/
+__pycache__/
+*.pyc
+*.pyo
+backend/.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Uploaded audio files
+uploads/
+backend/uploads/
+
+# -------------------------
+# Environment files
+# -------------------------
+.env
+.env.local
+.env.production
+
+# -------------------------
+# Training assets (exclude)
+# -------------------------
+aasist/
+aasist.zip
+VaaniRakshak_Epoch100_Backup/
+cloudflared
+
+# -------------------------
+# Logs
+# -------------------------
+*.log
+
+# -------------------------
+# Archives
+# -------------------------
+*.zip
+
+# -------------------------
+# VS Code
+# -------------------------
+.vscode/
+
+# -------------------------
+# Operating System files
+# -------------------------
+.DS_Store
+Thumbs.db

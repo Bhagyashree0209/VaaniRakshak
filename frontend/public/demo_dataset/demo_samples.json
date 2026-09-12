@@ -1,0 +1,25 @@
+{
+  "1_real_hindi.mp3": {"label":"real","language":"Hindi"},
+  "2_real_hindi.mp3": {"label":"real","language":"Hindi"},
+  "3_real_hindi.mp3": {"label":"real","language":"Hindi"},
+
+  "1_real_marathi.mp3": {"label":"real","language":"Marathi"},
+  "2_real_marathi.mp3": {"label":"real","language":"Marathi"},
+  "3_real_marathi.mp3": {"label":"real","language":"Marathi"},
+
+  "1_real_telugu.mp3": {"label":"real","language":"Telugu"},
+  "2_real_telugu.mp3": {"label":"real","language":"Telugu"},
+  "3_real_telugu.mp3": {"label":"real","language":"Telugu"},
+
+  "1_clone_hindi.wav": {"label":"cloned","language":"Hindi"},
+  "2_clone_hindi.wav": {"label":"cloned","language":"Hindi"},
+  "3_clone_hindi.wav": {"label":"cloned","language":"Hindi"},
+
+  "1_clone_marathi.wav": {"label":"cloned","language":"Marathi"},
+  "2_clone_marathi.wav": {"label":"cloned","language":"Marathi"},
+  "3_clone_marathi.wav": {"label":"cloned","language":"Marathi"},
+
+  "1_clone_telugu.wav": {"label":"cloned","language":"Telugu"},
+  "2_clone_telugu.wav": {"label":"cloned","language":"Telugu"},
+  "3_clone_telugu.wav": {"label":"cloned","language":"Telugu"}
+}
