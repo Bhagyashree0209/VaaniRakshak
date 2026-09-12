@@ -4,7 +4,7 @@ import os
 import shutil
 import asyncio
 
-from backend.inference import predict_audio
+from inference import predict_audio
 
 app = FastAPI(title="VaaniRakshak API", version="1.0")
 
