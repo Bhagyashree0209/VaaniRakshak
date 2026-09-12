@@ -38,9 +38,15 @@ backend/uploads/
 # -------------------------
 # Training assets (exclude)
 # -------------------------
-aasist/
-aasist.zip
-VaaniRakshak_Epoch100_Backup/
+#aasist/
+#aasist.zip
+#VaaniRakshak_Epoch100_Backup/
+# Keep AASIST source code
+aasist/venv/
+aasist/__pycache__/
+aasist/logs/
+aasist/outputs/
+aasist/checkpoints/
 cloudflared
 
 # -------------------------
