@@ -9,12 +9,12 @@ import torch
 # Project Paths
 # -------------------------
 BACKEND_DIR = Path(__file__).resolve().parent
-PROJECT_DIR = BACKEND_DIR.parent
-AASIST_DIR = PROJECT_DIR / "aasist"
+PROJECT_DIR = BACKEND_DIR
+AASIST_DIR = BACKEND_DIR / "aasist"
 
 # Epoch-100 trained model (Proof of training)
 MODEL_PATH = (
-    PROJECT_DIR
+    BACKEND_DIR
     / "VaaniRakshak_Epoch100_Backup"
     / "AAIST_EP100"
     / "custom_AASIST_ep100_bs24_AAIST_EP100_T4"
@@ -24,7 +24,7 @@ MODEL_PATH = (
 
 # Correct location of demo dataset JSON
 DEMO_JSON = (
-    PROJECT_DIR
+    BACKEND_DIR
     / "frontend"
     / "public"
     / "demo_dataset"
