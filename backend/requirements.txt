@@ -7,3 +7,4 @@ torchaudio
 soundfile
 librosa
 numpy
+pandas
