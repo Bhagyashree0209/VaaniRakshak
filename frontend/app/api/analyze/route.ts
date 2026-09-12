@@ -21,10 +21,13 @@ export async function POST(req: NextRequest) {
     const backendForm = new FormData();
     backendForm.append("file", uploaded, uploaded.name);
 
-    const response = await fetch("http://127.0.0.1:8000/analyze-clip", {
-      method: "POST",
-      body: backendForm,
-    });
+    const response = await fetch(
+  `${process.env.NEXT_PUBLIC_API_URL}/analyze-clip`,
+  {
+    method: "POST",
+    body: backendForm,
+  }
+);
 
     const result = await response.json();
 
