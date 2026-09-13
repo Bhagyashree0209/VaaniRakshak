@@ -51,7 +51,7 @@ export function Footer() {
               <span className="text-xs font-bold text-cyan-400 tracking-widest uppercase">
                 Smart India Hackathon 2026
               </span>
-              <span className="text-xs text-muted-foreground">Team VaaniRakshak</span>
+              <span className="text-xs text-muted-foreground">Team Debug</span>
             </div>
 
             {/* Social links */}
@@ -99,7 +99,7 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="mt-10 flex flex-col items-center justify-between gap-3 border-t border-white/5 pt-6 sm:flex-row">
           <p className="text-xs text-muted-foreground">
-            © 2026 VaaniRakshak · Team VaaniRakshak · Smart India Hackathon 2026 · All rights reserved.
+            © 2026 VaaniRakshak · Team Debug · Smart India Hackathon 2026 · All rights reserved.
           </p>
           <div className="flex items-center gap-4 text-xs text-muted-foreground">
             <Link href="#" className="hover:text-cyan-400 transition-colors">Privacy Policy</Link>
