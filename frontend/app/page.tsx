@@ -81,7 +81,7 @@ const stats = [
   { value: '99.2%', label: 'Detection Accuracy' },
   { value: '< 0.8s', label: 'Average Inference Time' },
   { value: '2.4M+', label: 'Audio Samples Analyzed' },
-  { value: '47', label: 'Languages Supported' },
+  { value: '3', label: 'Languages Supported' },
 ];
 
 export default function Home() {
