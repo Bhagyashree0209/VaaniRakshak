@@ -21,7 +21,7 @@ import { cn } from '@/lib/utils';
 const overviewStats = [
   {
     label: 'Total Analyses',
-    value: '1,284',
+    value: '18',
     icon: AudioLines,
     trend: '+12.4%',
     color: 'cyan',

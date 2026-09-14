@@ -80,7 +80,7 @@ const steps = [
 const stats = [
   { value: '99.2%', label: 'Detection Accuracy' },
   { value: '< 0.8s', label: 'Average Inference Time' },
-  { value: '2.4M+', label: 'Audio Samples Analyzed' },
+  { value: '18+', label: 'Demo Audio Samples' },
   { value: '3', label: 'Languages Supported' },
 ];
 
